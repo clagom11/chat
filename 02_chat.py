@@ -39,8 +39,8 @@ def main(server_address, info):
     print("end client")
     
 if __name__=='__main__': 
-    server_address = '127.0.0.1'
-    client_address = '127.0.0.1'
+    server_address = '10.8.0.5'
+    client_address = '10.8.0.5'
     client_port = 6001
     
     if len(sys.argv) > 1: 
